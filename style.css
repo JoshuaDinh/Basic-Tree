@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+}
+
+nav{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+
+}
+.container nav ul li{
+    display: inline-block;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.green-container{
+  height: 20em;
+  background-image: url(images/tree1.jpg); 
+  background-repeat: no-repeat;
+  opacity: 75%;
+  color: white;
+  font-weight: bold;
+}
+
+.green-container h1{
+    text-align: center;
+}
+.white-container{
+    width: 100%;
+    text-align: center;
+    display: grid;
+}
+
+.icon{
+  width: 25%;
+  margin: 50px;
+}
+
+.white-container ul li{
+    list-style: none;
+}
+
+
+.white-container p{
+    font-weight: bold;
+    color: rgb(97, 161, 97);
+    text-align: center;
+    
+} 
+
+.white-container ul p{
+    display: grid;
+}
+
+.pic{
+    width: 45%;
+}
+
+.small{
+    background-image: url(images/responsive1.jpg);
+    height: 15em;
+    color: honeydew;
+    padding-top: 80px;
+}
+
+.small h1,p{
+    text-align: center;
+}
+.cta{
+    color: rgb(39, 107, 62);
+    width: calc(100% -1em);
+    background-color: honeydew;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: .5em;
+    position: relative;
+    margin: 3% auto 7%;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+}
+
+.info{
+    text-align: center;
+    background-color: rgb(224, 221, 221);
+ 
+}
+
+.info ul li{
+    list-style: none;
+    width: auto;
+    padding-top: 15px;
+    
+}
+
+@media only screen and (min-width: 600px){
+
+    .white-container ul {
+        display: flex;
+    }
+
+    .white-container ul li{
+        padding: 15px;
+    }
+
+        .icon{
+            width: 40%;
+        }
+
+        .info ul li{
+           
+        }
+
+   .info ul {
+       display: flex;
+   }
+
+   .cta {
+
+    width: 50%;
+   }
+
+    .small{
+        text-align: center;
+
+    }
+
+}
+  
